@@ -1,0 +1,30 @@
+html {
+   min-height: 100%;
+}
+
+p {
+	color:white;
+	font-family: "orbitron-1","orbitron-2";
+}
+
+body {
+
+/* IE10 */ 
+background-image: -ms-linear-gradient(top, #000000 0%, #575757 100%);
+
+/* Mozilla Firefox */ 
+background-image: -moz-linear-gradient(top, #000000 0%, #575757 100%);
+
+/* Opera */ 
+background-image: -o-linear-gradient(top, #000000 0%, #575757 100%);
+
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #000000), color-stop(1, #575757));
+
+/* Webkit (Chrome 11+) */ 
+background-image: -webkit-linear-gradient(top, #000000 0%, #575757 100%);
+
+/* Proposed W3C Markup */ 
+background-image: linear-gradient(top, #000000 0%, #575757 100%);
+
+}
