@@ -9,6 +9,8 @@ p {
 
 body {
 
+padding-top:20px;
+
 /* IE10 */ 
 background-image: -ms-linear-gradient(top, #000000 0%, #575757 100%);
 
